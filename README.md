@@ -1,5 +1,13 @@
 ```mermaid
 sequenceDiagram
+participant OTU
+participant CPU
+participant TIS
+participant Detector
+participant Local-I/O
+participant RSU
+participant CDT
+participant CDT
 OTU->>CPU: Serial Force Bits
 CPU->>OTU: UG405 Reply Bits
 CPU->>TIS: Serial Reply Bits
